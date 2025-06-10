@@ -39,8 +39,8 @@ export function ContactForm({ id }: ContactProps) {
 
     emailjs
       .send(
-        "service_z30loik", // Replace with your EmailJS Service ID
-        "template_fa9jija", // Replace with your EmailJS Template ID
+        "service_ltu9gfi", // Replace with your EmailJS Service ID
+        "template_2x75cz5", // Replace with your EmailJS Template ID
         {
           first_name: formData.firstName,
           last_name: formData.lastName,
@@ -48,7 +48,7 @@ export function ContactForm({ id }: ContactProps) {
           type: formData.type,
           message: formData.message,
         },
-        "K9S957DKRD9NM3VeM" // Replace with your EmailJS Public Key
+        "yn8GpHnSI9L0_bNvc" // Replace with your EmailJS Public Key
       )
       .then(
         () => {
@@ -85,7 +85,7 @@ export function ContactForm({ id }: ContactProps) {
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <Typography variant="h6" color="white" className="mb-2">
-                  +1 503-405-5144
+                  +1 971-386-7358
                 </Typography>
               </div>
               <div className="flex my-2 gap-5">

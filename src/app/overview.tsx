@@ -44,7 +44,7 @@ const SKILLS = [
     title: "Contact Information",
     children: (
       <>
-        {`Phone: 503-405-5144\nEmail: info@wellspringpdx.com`
+        {`Phone: 971-386-7358\nEmail: info@wellspringpdx.com`
           .split("\n")
           .map((line, index) => (
             <Fragment key={index}>
