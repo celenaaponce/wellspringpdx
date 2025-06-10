@@ -1,6 +1,6 @@
 "use client";
 
-import { Typography, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import { Fragment } from "react";
 import Image from "next/image";
 import { SkillCard } from "@/components";

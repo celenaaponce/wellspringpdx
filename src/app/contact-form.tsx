@@ -10,7 +10,6 @@ import {
   Input,
   Textarea,
   Button,
-  IconButton,
 } from "@material-tailwind/react";
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 interface ContactProps {
