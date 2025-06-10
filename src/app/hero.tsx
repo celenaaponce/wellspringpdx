@@ -19,7 +19,12 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            Your Journey to Recovery Begins Here <br/> <br/> Get Help Now
+            Your Journey to Recovery Begins Here <br/> <br/>               <a
+                href="#contact"
+                className="text-blue-500 underline hover:text-blue-700"
+              >
+                Get Help Now
+              </a>
           </Typography>
         </div>
         <Image
